@@ -3,9 +3,9 @@ from time import sleep, time
 import os
 
 pid = str(os.getpid())
-url = 'http://lel.6te.net'
+url = 'url'
 period = 120
-file_path = "/home/meow/Desktop/test.txt"
+file_path = "log_file_path"
 
 def writedata(line):
     fp = open(file_path, "a")
